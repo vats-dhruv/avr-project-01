@@ -32,3 +32,6 @@ const filer = document.querySelectorAll(".fileopener");
 filer.forEach((f) => {
   f.onclick = () => { goto(f.dataset.file, f.dataset.line); };
 });
+document.getElementById('para1').onclick=function hello(){
+                           console.log('hello')
+                           document.getElementById('project-links').style.visibility="visible"};
